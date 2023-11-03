@@ -1,0 +1,26 @@
+.category-item {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EEE;
+    border-radius: 1.2rem;
+    padding: 1.8rem 1.25rem;
+    margin: 2.5rem 1.25rem;
+}
+
+.category-item-img {
+    height: 176px;
+    width: 251px;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.category-item-title {
+    align-self: flex-end;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

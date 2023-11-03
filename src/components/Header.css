@@ -1,0 +1,46 @@
+/* navbar */
+.navbar {
+    height: 3.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .logo {
+    width: 1.75rem;
+    height: 3rem;
+    margin-top: 0.625rem;
+    margin-left: 2.56rem;
+  }
+  
+  .cart {
+    width: 1.25rem;
+    height: 1.37rem;
+    margin-top: 0.9rem;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar> ul li a {
+    display: block;
+    margin: 0rem 2.06rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a.rent {
+    background-color: #000;
+    color: #FFF;
+    width: 4rem;
+    height: 1.3rem;
+    text-align: center;
+    border-radius: 0.625rem;
+  }
