@@ -1,0 +1,36 @@
+.recommendations {
+    justify-content: center;
+    text-align: center;
+}
+
+.recommendations .title {
+    color: #BFBFBF;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16px;
+}
+
+.recommedend-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2.5rem;
+}
+
+.recommended-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0.5rem 1rem;
+    padding: 0.925rem;
+    border-top: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #CCC;
+    flex: 1 0 30%;
+}
