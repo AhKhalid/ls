@@ -3,13 +3,14 @@
     text-align: center;
     justify-content: center;
 }
+
 .categories-title {
     color: #BFBFBF;
     font-family: Inter;
-    font-size: 120px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 24px;
+    letter-spacing: 16px;
     text-align: center;
 }
