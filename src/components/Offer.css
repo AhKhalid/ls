@@ -1,0 +1,57 @@
+.offer {
+    display: flex;
+    padding: 1.5rem
+}
+
+.offer .offer-img {
+    width: auto;
+    height: auto;
+    margin: 1rem 0rem 0rem 3rem;
+    padding: 1rem;
+    opacity: 60%;
+}
+
+.offer .offer-details {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+.price-details {
+    padding: 1rem;
+}
+.price-now {
+    background-color: #FF0000;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price-was {
+    color: #868686;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.add-to-cart {
+    align-self: flex-end;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #000;
+    color: #FFF;
+    margin: 2rem;
+    padding: 0.3rem 3rem;
+    border-radius: 1rem;
+}
