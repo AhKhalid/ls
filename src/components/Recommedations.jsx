@@ -2,7 +2,7 @@ import './Recommendations.css'
 
 export default function Recommendations() {
     return (
-        <div className="recommendations">
+        <div id='recommendations' className="recommendations">
             <h1 className="title">RECOMMENDED</h1>
 
             <div className="recommedend-items">

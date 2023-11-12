@@ -10,7 +10,7 @@ import './Categories.css'
 
 export default function Categories() {
     return (
-        <Container className="categories">
+        <Container id="categories" className="categories">
             <Row>
                 <Col md={12}>
                     <span className="categories-title">CATEGORIES</span>
