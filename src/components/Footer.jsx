@@ -1,9 +1,8 @@
-import instgram from '../assets/instgram.png'
-import twitter from '../assets/twitter.png'
-import facebook from '../assets/facebook.png'
+import { faFacebookF, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Footer.css'
 
-export default function Footer(){
+export default function Footer() {
     return (
         <footer className="footer">
             <div className="footer-contact">
@@ -15,9 +14,15 @@ export default function Footer(){
             <div className="footer-social">
                 <h1>Social</h1>
                 <div>
-                    <a href="#"><img src={instgram} alt="instgram icon" /></a>
-                    <a href="#"><img src={twitter} alt="twitter icon" /></a>
-                    <a href="#"><img src={facebook} alt="facebook icon" /></a>
+                    <a href="#">
+                        <FontAwesomeIcon icon={faInstagram} size='xl' style={{ "color": "#FFF" }} />
+                    </a>
+                    <a href="#">
+                        <FontAwesomeIcon icon={faXTwitter} size='xl' style={{ "color": "#FFF" }} />
+                    </a>
+                    <a href="#">
+                        <FontAwesomeIcon icon={faFacebookF} size='xl' style={{ "color": "#FFF" }} />
+                    </a>
                 </div>
             </div>
         </footer>

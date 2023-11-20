@@ -1,0 +1,51 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 5px 5px #CCC;
+    position: fixed;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #CCCC;
+    backdrop-filter: blur(10px);
+}
+
+.cart-close {
+    align-self: flex-end;
+}
+.cart-actions {
+    align-self: flex-end;
+}
+
+.button {
+    border: 0;
+    margin: 0.4rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.4rem;
+}
+
+.button-outline
+{
+    border: 1px solid #CCC;
+    background-color: #FFF;
+}
+.button-outline:hover
+{
+    background-color: #000;
+    color: #FFF;
+}
+
+.button-primary {
+    background-color: #000;
+    color: #FFF;
+}
+
+.button-primary:hover {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    color: #000;
+}

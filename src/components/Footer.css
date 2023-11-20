@@ -24,3 +24,7 @@
     font-weight: 700;
     line-height: normal;
 }
+
+.footer-social a {
+    margin: 0.2rem;
+}

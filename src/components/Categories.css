@@ -1,7 +1,9 @@
 .categories {
-    margin-top: 7rem;
-    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .categories-title {
@@ -13,4 +15,12 @@
     line-height: normal;
     letter-spacing: 16px;
     text-align: center;
+}
+
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem;
+    justify-content: center;
 }

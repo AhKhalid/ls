@@ -1,0 +1,41 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid;
+    gap: 2rem;
+}
+
+.payment-details>div span {
+    margin: 0.5rem
+}
+
+.payment-details>div span:nth-child(1) {
+    color: #A1A1A1;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 102.4% */
+    letter-spacing: -0.9px;
+}
+.payment-details>div span:nth-child(2) {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 102.4% */
+    letter-spacing: -0.9px;
+}
+
+.payment-method {
+
+}

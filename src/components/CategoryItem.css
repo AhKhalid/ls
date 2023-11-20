@@ -1,23 +1,30 @@
 .category-item {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     background-color: #EEE;
     border-radius: 1.2rem;
-    padding: 1.8rem 1.25rem;
-    margin: 2.5rem 1.25rem;
+    padding: 0.8rem 0;
+    flex-basis: 33%;
+}
+
+.category-item:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .category-item-img {
     height: 176px;
     width: 251px;
-    background-color: red;
+    background-color: #FFF;
     border-radius: 1rem;
     padding: 1rem;
 }
 
 .category-item-title {
-    align-self: flex-end;
-    color: #000;
     font-family: Inter;
     font-size: 40px;
     font-style: normal;
