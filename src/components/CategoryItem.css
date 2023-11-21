@@ -6,7 +6,7 @@
     gap: 1rem;
     background-color: #EEE;
     border-radius: 1.2rem;
-    padding: 0.8rem 0;
+    padding: 1rem;
     flex-basis: 33%;
 }
 
@@ -17,16 +17,16 @@
 }
 
 .category-item-img {
-    height: 176px;
-    width: 251px;
     background-color: #FFF;
     border-radius: 1rem;
     padding: 1rem;
+    height: 10rem;
+    width: 12rem;
 }
 
 .category-item-title {
     font-family: Inter;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

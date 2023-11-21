@@ -13,7 +13,7 @@ export default function CategoryItem(props) {
 
     return (
         <div className="category-item" onClick={()=> navigateTo(title)}>
-            <img src={img} alt={alt} className="category-item-img" />
+            <img src={img} alt={alt} className="img category-item-img" />
             <span className="category-item-title">{title}</span>
         </div>
     )
